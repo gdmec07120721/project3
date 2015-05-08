@@ -1,0 +1,285 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="css/style.css" rel="stylesheet" >
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/roll.js" ></script>
+<script type="text/javascript" src="js/jquery-code.js"></script> 
+
+</head>
+
+<body>
+<!--header-->
+<div id="header">
+	<div class="header">
+    	<div class="header_up">
+         	<div class="up">
+            	<div class="up_left">
+                	<a href="index.html"><img src="images/logo.png" /></a> 
+                </div>
+                <div class="up_right">
+                      <ul>
+                          <li><a href="pre-login.html">Parent Login</a></li>
+                          <li class="up_right_li"><a href="pre-login.html">Student Login</a></li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header_nav">
+            <div class="nav"> 
+                <ul>
+                     <li class="c1"><a href="#" id="menv1">ABOUT US</a>
+                          <ul>
+                              <li class="top"><a href="aboutus-di.html">DIRECTOR</a></li>
+                              <li><a href="aboutus-why.html">WHY SINGAPORE?</a></li>
+                              <li><a href="aboutus-te.html">TESTIMONIAL</a></li>
+                          </ul>
+                     </li>
+                     <li class="c2"><a href="school.html" id="menv2">SCHOOL</a></li>
+                     <li class="c3"><a href="tutorial.html" id="menv3">TUTORIAL</a></li>
+                     <li class="c4"><a href="" id="menv4">NEWS</a>
+                          <ul>
+                              <li class="top"><a href="new-wo.html">WORLD EDUCATION</a></li>
+                              <li><a href="new-as.html">ASIA NEWS</a></li>
+                          </ul>
+                     </li>
+                     <li class="c5"><a href="activity.html" id="menv5">ACTIVITY</a></li>
+                     <li class="c6"><a href="home.html" id="menv6" class="none">HOME - STAY</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--content-->
+<div id="content">
+	<div class="content_middle">
+        <div class="middle_content">
+        	<div class="middle_content_left">
+                <div class="div1">
+                    <img id="img" src="images/k1.png" />
+                    <h3>Insworld Institute</h3>
+                </div>
+                <div class="div2">
+                    <div class="rollBox">
+                       <div class="LeftBotton" onmousedown="ISL_GoUp()" onmouseup="ISL_StopUp()" onmouseout="ISL_StopUp()"></div>
+                       <div class="Cont" id="ISL_Cont">
+                        <div class="ScrCont">
+                         <div id="List1">
+                          <!-- 图片列表 begin -->
+                           <div class="pic">
+                            <img id="1" src="images/p1.png" onClick="changeImg(this.id)"/>
+                           </div>       
+                           <div class="pic">
+                            <img id="2" src="images/p2.png" onClick="changeImg(this.id)"/>
+                           </div>
+                           <div class="pic">
+                            <img id="1" src="images/p1.png" onClick="changeImg(this.id)"/>
+                           </div>
+                           <div class="pic">
+                            <img id="2" src="images/p2.png" onClick="changeImg(this.id)"/>
+                           </div>
+                           <div class="pic">
+                            <img id="1" src="images/p1.png" onClick="changeImg(this.id)"/>
+                           </div>
+                           <div class="pic">
+                            <img id="2" src="images/p2.png" onClick="changeImg(this.id)"/>
+                           </div>      
+                           <div class="pic">
+                            <img id="1" src="images/p1.png" onClick="changeImg(this.id)"/>
+                           </div>
+                           <script>
+                            function changeImg(id)
+                            {
+                             var bigimg = document.getElementById("img");
+                             bigimg.src="images/k"+id+".png";
+                            
+                            }
+                            </script>
+                          <!-- 图片列表 end -->
+                         </div>
+                         <div id="List2"></div>
+                        </div>
+                       </div>
+                       <div class="RightBotton" onmousedown="ISL_GoDown()" onmouseup="ISL_StopDown()" onmouseout="ISL_StopDown()"></div>
+                      </div>
+                      <h2>Brief Introduction About The School</h2>
+                      <div class="div2_box">
+                            <p class="choose1"><a href="#box_content1">Essential Information</a></p>
+                            <p class="choose2"><a href="#box_content2">History</a></p>
+                            <p class="choose2"><a href="#box_content3">Courses</a></p>
+                            <p class="choose2"><a href="#box_content4">Campus Enviroment </a></p>
+                            <div class="clear"></div>
+                      		<div id="box_content1" class="box_content">
+                            	<h4>Essential information</h4>
+                            	<div class="content1" >
+                                	<div class="content1_li">
+                                    	<li><span class="span1">Name</span><span class="span2">Insworld Institute </span></li>
+                                        <li><span class="span1">Principal</span><span class="span2">Matthew James Cole</span></li>
+                                    </div>
+                                	<div class="content1_li">
+                                    	<li><span class="span1">Abbreviation</span><span class="span2">PKU</span></li>
+                                        <li><span class="span1">Location</span><span class="span2">No 2 Serangoon Road The Verge #03-18 Singapore 218227 </span></li>
+                                    </div>
+                                	<div class="content1_li">
+                                    	<li><span class="span1"> Type</span><span class="span2">Private Education Institute </span></li>
+                                        <li><span class="span1">School Motto</span><span class="span2">Hinc lucem et pocula sacra</span></li>
+                                    </div>
+                                	<div class="content1_li border_none">
+                                    	<li><span class="span1">Year Established</span><span class="span2">1209</span></li>
+                                        <li><span class="span1">Class Size</span><span class="span2">4-12</span></li>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="box_content2" class="box_content">
+                                <h4>History</h4>
+                                <div class="content2" >
+                                	<li class="content2_li">Insworld has been offering a British-style education in Singapore since its establishment in 2001.</li>
+                                	<li>Insworld was officially declared open by the former British High Commissioner, His Excellency, Sir Alan Collins, CMG, on April 23rd, 2004.</li>
+                                    <li>It has been offering Pearson Edexcel GCE Examinations since its establishment. Throughout that time it has achieved consistently high results.</li>
+                                    <li>Awarded with Edutrust Provisional Certificate.</li>
+                                    <li>International acclaim : '“Comparable to the top 25% of schools in the UK”  (Mr Lawrence Denholm, Senior Consultant, Airton Bridge Consultant, UK). </li>
+                                    <li>'One of the best International Schools in 2005, 2006, 2007, 2008' (excerpt from Newsweek).</li>
+                                </div>
+                            </div>
+                            <div id="box_content3" class="box_content">
+                            	<h4>Courses</h4>
+                                <div class="content3" >
+                                	<div class="content3_li">
+                                    	<li>English for Academic Study (EAS)</li>
+                                        <li class="li_size">English for Academic Study (EAS) programme is an intensive integrated programme that allows you to rapidly
+                                        improve your English in the shortest possible space of time. Equal emphasis is placed on the four key skills of: Listening, Speaking, Reading and Writing.
+                                        The EAS course lasts for a maximum of nine months, divided into three terms.
+                                        </li>
+                                    </div>
+                                	<div class="content3_li">
+                                    	<li>Junior Secondary (EITP)</li>
+                                        <li class="li_size">The Edexcel International Tuition Programme (EITP) is an intensive modular Junior Secondary School Programme.  The EITP curriculum
+                                        incorporates the bestelements of the UK National Curriculum with the real life experience of studying in an international environment.</li>
+                                    </div>
+                                	<div class="content3_li">
+                                    	<li>High School (International GCSE Level)</li>
+                                        <li class="li_size">The Pearson Edexcel ‘Advanced’ Level Programme at Insworld is an intensive programme that is usually taught over 18 months and divided
+                                        into six terms. However, the duration can vary depending on the student's entry qualifications.</li>
+                                    </div>
+                                	<div class="content3_li">
+                                    	<li>Junior College (Edexcel Pearson GCE Advanced Level)</li>
+                                        <li class="li_size">The Pearson Edexcel ‘Advanced’ Level Programme at Insworld is an intensive programme that is usually taught over 18 months and divided
+                                        into six terms. However, the duration can vary depending on the student's entry qualifications.</li>
+                                    </div>
+                                	<div class="content3_li">
+                                    	<li>Pearson BTEC Diploma in Business Level 3</li>
+                                        <li class="li_size">This diploma is equivalent to A levels and can be completed in 18 months. This course is for students who are interested in a business
+                                        degree or a career in business and would prefer a more criteria based qualification rather than an exam based qualification.</li>
+                                    </div>
+                                	<div class="content3_li border_none">
+                                    	<li>Edexcel HND Diploma in Business Level 5</li>
+                                        <li class="li_size">Pearson BTEC in Singapore (Level 5) is a vocational qualification in its own right, but is also an alternative pathway to university. It
+                                        is an intensive program that runs for 15 months and is equivalent to the first two years of a university honours degree.</li>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="box_content4" class="box_content">
+                            	<h4>Campus Enviroment</h4>
+                                <div class="content4" >
+                                	<img src="images/s1.png" />
+                                    <img src="images/s1.png" />
+                                    <img src="images/s1.png" />
+                                    <img src="images/s1.png" />
+                                    <img src="images/s1.png" />
+                                    <img src="images/s1.png" />
+                                    <img src="images/s1.png" />
+                                    <img src="images/s1.png" />
+                                </div>
+                            </div>
+                      </div>
+                  </div>
+            </div>
+            <div class="middle_content_right">
+                <input type="text" class="search" value="Search" /><input type="button" class="button" />
+                <div class="right_recomnended">
+                	<h2>Recomnended</h2>
+                    <div class="recomnended">
+                        	<a href="tutorial-single.html"><img src="images/m1.png" /></a>
+                            <li class="recomnended_subject">
+                                <span>English</span>
+                                <span class="span">primary 1</span>
+                            </li>
+                            <li class="recomnended_title"><a href="tutorial-single.html">The third chapter of Newton's laws of motion</a></li>
+                    </div>
+                    <div class="recomnended">
+                        	<a href="tutorial-single.html"><img src="images/m1.png" /></a>
+                            <li class="recomnended_subject">
+                                <span>English</span>
+                                <span class="span">primary 1</span>
+                            </li>
+                            <li class="recomnended_title"><a href="tutorial-single.html">The third chapter of Newton's laws of motion</a></li>
+                    </div>
+                    <div class="recomnended">
+                        	<a href="tutorial-single.html"><img src="images/m1.png" /></a>
+                            <li class="recomnended_subject">
+                                <span>English</span>
+                                <span class="span">primary 1</span>
+                            </li>
+                            <li class="recomnended_title"><a href="tutorial-single.html">The third chapter of Newton's laws of motion</a></li>
+                    </div>
+                    <div class="recomnended">
+                        	<a href="tutorial-single.html"><img src="images/m1.png" /></a>
+                            <li class="recomnended_subject">
+                                <span>English</span>
+                                <span class="span">primary 1</span>
+                            </li>
+                            <li class="recomnended_title"><a href="tutorial-single.html">The third chapter of Newton's laws of motion</a></li>
+                    </div>
+                    <div class="recomnended">
+                        	<a href="tutorial-single.html"><img src="images/m1.png" /></a>
+                            <li class="recomnended_subject">
+                                <span>English</span>
+                                <span class="span">primary 1</span>
+                            </li>
+                            <li class="recomnended_title"><a href="tutorial-single.html">The third chapter of Newton's laws of motion</a></li>
+                    </div>
+                </div>	
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<input name="menvitem" type="hidden" id="menvitem" value="2" />
+<!--footer-->
+<div id="footer">
+	<div class="footer_up">
+    	<div class="footer_content">
+            <div>
+                <p><img src="images/logo.png"/></p>
+                <li>International Education Placement And Services P/L of Goldtrust Group Co.reg no. : 201313090R </li>
+            </div>
+            <div>
+                <p>Contact Info</p>
+                <li><a href="feedback.html">Feedback </a></li>
+                <li><a href="">Careers </a></li>
+                <li><a href="terms.html">Terms of Use  </a></li>
+                <li><a href="new-as.html">Press Room</a></li>
+            </div>
+            <div style="width:280px;">
+                <p>Help & Resources</p>
+                <li><a href=""> ICA </a></li>
+                <li><a href="">	Embassy </a></li>
+                <li><a href="">	Ministry of Education</a></li>
+                <li><a href="">	Ministry of Manpower</a></li>
+                <li><a href=""> Council of Private Education</a></li>
+            </div>
+            <div>
+                <p>Address</p>
+                <img class="addr_icon" src="images/addr_icon.png" /><li>Wcega Tower, 21 Bukit Batok Crescent #09-70, Singapore 658065</li>
+            </div>
+        </div>
+    </div>
+    <div class="footer_under">
+    	<li class="reserved"><span> ©</span>2014 LemonChili. All Rights Reserved.</li>
+    </div>
+</div>
+</body>
+</html>
